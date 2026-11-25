@@ -1,0 +1,18 @@
+section#journal.journal
+  .container.journal__container
+    +section-title(sections.journal.title)
+    p.journal__text #{sections.journal.text}
+
+    ul.journal__list
+      each post in sections.journal.posts
+        li.post
+          a.post__preview(href=post.href aria-hidden="true" tabindex="-1")
+            +picture(post.image, '', 150, 150, '150px', true)(class="post__img")
+          .post__body
+            p.post__meta
+              time(datetime=post.date) #{post.dateLabel}
+              span.post__slash /
+              span.post__category #{post.category}
+            h3.post__title #{post.title}
+            p.post__text #{post.text}
+            a.post__link(href=post.href) Read more

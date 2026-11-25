@@ -1,0 +1,12 @@
+section#about.about
+  .container.about__container
+    +section-title(sections.about.title)
+    p.about__text #{sections.about.text}
+
+    ul.services
+      each service in sections.about.services
+        li.service
+          .service__icon
+            +icon(service.iconName, 'symbol')(width="44" height="44")
+          h3.service__title #{service.title}
+          p.service__text #{service.text}

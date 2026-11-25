@@ -1,0 +1,23 @@
+section#client.client
+  .container.client__container
+    +section-title(sections.client.title)
+    p.client__text #{sections.client.text}
+
+    ul.client__list
+      each logo in sections.client.logos
+        li.client__logo #{logo}
+
+    .testimonial
+      span.testimonial__mark(aria-hidden="true") #{sections.client.testimonial.mark}
+      p.testimonial__text #{sections.client.testimonial.quote}
+      .testimonial__footer
+        .testimonial__author
+          span.testimonial__avatar #{sections.client.testimonial.initials}
+          .testimonial__info
+            span.testimonial__name #{sections.client.testimonial.author}
+            span.testimonial__role #{sections.client.testimonial.role}
+        ul.testimonial__dots
+          - let dotIdx = 0;
+          while dotIdx < sections.client.testimonial.slidesCount
+            li.testimonial__dot(class={ 'testimonial__dot--active': dotIdx === sections.client.testimonial.activeIndex })
+            - dotIdx++;

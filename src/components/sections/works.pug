@@ -1,0 +1,17 @@
+section#works.works
+  .container
+    .works__header
+      +section-title(works.title)
+
+      .works__filter(role="group" aria-label="Filter works")
+        each cat, idx in works.categories
+          - const inputId = `filter-${cat.id}-${idx}`;
+          input.works__radio(type="radio" name="works-filter" id=inputId checked=cat.checked)
+          label.filter-btn.btn(for=inputId class=cat.checked ? 'btn--primary' : 'btn--secondary') #{cat.label}
+
+    .portfolio
+      each work, i in works.projects
+        +work-card(work)(data-index=i data-category=work.categorySlug)
+
+    .works__more
+      +btn(works.loadMoreLabel, null, 'secondary', 'btn--outline')

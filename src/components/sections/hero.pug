@@ -1,0 +1,8 @@
+section#hero.hero
+  .container
+    .hero__container
+      h1.hero__title #{sections.hero.title}
+      p.hero__text #{sections.hero.text}
+      .hero__actions
+        +btn(sections.hero.primaryCta.label, sections.hero.primaryCta.href, 'primary', 'hero__btn')
+        +btn(sections.hero.secondaryCta.label, sections.hero.secondaryCta.href, 'secondary', 'hero__btn')

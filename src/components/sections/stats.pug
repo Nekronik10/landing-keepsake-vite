@@ -1,0 +1,7 @@
+section.stats
+  .container
+    ul.stats__list
+      each stat in sections.stats
+        li.stats__item
+          span.stats__number #{stat.number}
+          span.stats__label #{stat.label}
