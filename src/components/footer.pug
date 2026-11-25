@@ -1,0 +1,43 @@
+footer.footer
+  .container.footer__container
+    .footer__top
+      nav.footer__nav(aria-label="Footer")
+        each col in site.footerCols
+          .footer__col
+            h3.footer__title #{col.title}
+            ul.footer__list
+              each link in col.links
+                li.footer__item
+                  a.footer__link(href=link.href) #{link.label}
+
+      #newsletter.newsletter
+        h3.footer__title Newsletter
+        form.subscribe(action="#newsletter" method="get")
+          p.newsletter__text Fresh case studies and design notes, once a month.
+          input#subscribe-email.subscribe__input(
+            type="email"
+            name="email"
+            placeholder="Your email address"
+            autocomplete="email"
+            aria-describedby="subscribe-error"
+            required
+          )
+          +btn('Subscribe', null, 'primary', 'subscribe__btn')(type="submit")
+          p#subscribe-error.subscribe__error Please enter a valid email address.
+          label.subscribe__agree
+            input.subscribe__checkbox(type="checkbox" name="agree" required)
+            span I agree to the privacy policy
+
+        .newsletter__success
+          p.success__box
+            span.success__icon(aria-hidden="true")
+              +icon('check', 'symbol')
+            span(role="status") You&rsquo;re in! Check your inbox to confirm.
+          p.success__note One email a month. No spam, unsubscribe anytime.
+
+    .footer__bottom
+      p.footer__copy #{site.copyright}
+      ul.social
+        each soc in site.socials
+          li.social__item
+            a.social__link(href=soc.href class=`social__link--${soc.name}` aria-label=soc.label) #{soc.text}
