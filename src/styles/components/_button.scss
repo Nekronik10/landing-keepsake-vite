@@ -1,0 +1,55 @@
+@use '../abstracts' as *;
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+
+  &--primary {
+    background-color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    color: var(--color-white);
+
+    &:hover {
+      background-color: var(--color-accent-hover);
+    }
+
+    &:active {
+      background-color: var(--color-white);
+      border: 1px solid var(--color-border);
+      color: var(--color-text-dark);
+    }
+  }
+
+  &--secondary {
+    border: 1px solid var(--color-border);
+    color: var(--color-text-dark);
+    background-color: var(--color-white);
+
+    &:hover {
+      border: 1px solid var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    &:active {
+      background: var(--color-accent);
+      color: var(--color-white);
+      border: 1px solid var(--color-accent);
+    }
+  }
+
+  &--outline {
+    font-size: rem(13);
+    font-weight: 400;
+    padding: 12px 28px;
+  }
+}
+
+.btn-contact-text {
+  font-family: var(--font-heading);
+  font-size: rem(13);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
