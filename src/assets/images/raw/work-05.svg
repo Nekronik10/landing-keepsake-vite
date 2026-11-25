@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 632">
+  <rect width="800" height="632" fill="#23252A"/>
+  <circle cx="400" cy="238" r="110" fill="none" stroke="#353840" stroke-width="8"/>
+  <circle cx="400" cy="232" r="48" fill="#2CD5C4"/>
+  <path d="M380 232h40M400 212v40" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <text x="400" y="348" text-anchor="middle" fill="#FFFFFF" font-family="Oswald, sans-serif" font-size="34" letter-spacing="4">PROFILE UI</text>
+  <rect x="366" y="378" width="68" height="4" fill="#F95858"/>
+  <text x="400" y="426" text-anchor="middle" fill="#474A52" font-family="Open Sans, sans-serif" font-size="40">Jane Cooper</text>
+  <text x="400" y="438" text-anchor="middle" fill="#2CD5C4" font-family="Open Sans, sans-serif" font-size="24">Web</text>
+  <text x="400" y="492" text-anchor="middle" fill="#234849" font-family="Open Sans, sans-serif" font-size="28">@contactaddress</text>
+</svg>

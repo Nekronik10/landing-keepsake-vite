@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 632">
+  <rect width="800" height="632" fill="#E9ECEC"/>
+  <g transform="translate(400,316) rotate(-28)">
+    <text x="0" y="20" text-anchor="middle" font-family="Oswald, sans-serif" font-weight="700" font-size="88" letter-spacing="4">
+      <tspan fill="#232426">PIECE</tspan><tspan fill="#F95858">PAPER</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 632">
+  <rect width="800" height="632" fill="#EBB6BA"/>
+  <g transform="translate(400,316) rotate(22)">
+    <rect x="-360" y="-175" width="720" height="350" fill="#2D3033"/>
+    <text x="-210" y="-20" fill="#FFFFFF" font-family="Oswald, sans-serif" font-size="64" letter-spacing="6">JOHN DOE</text>
+    <text x="-210" y="45" fill="#E7554B" font-family="Oswald, sans-serif" font-size="32" letter-spacing="6">DESIGN STUDIO</text>
+  </g>
+</svg>

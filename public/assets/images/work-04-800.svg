@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 632">
+  <rect width="800" height="632" fill="#9E8E7A"/>
+  <g transform="translate(400,320) rotate(13)">
+    <rect x="-320" y="-190" width="640" height="380" fill="#CBB89E"/>
+    <line x1="-320" y1="-190" x2="320" y2="-190" stroke="#7E5E42" stroke-width="10"/>
+    <text x="-270" y="-115" transform="rotate(-26 -270 -115)" fill="#BA342E" font-family="Oswald, sans-serif" font-size="68" letter-spacing="4">VOL. 16</text>
+  </g>
+</svg>
