@@ -1,0 +1,124 @@
+{
+  "lang": "en",
+  "title": "Keepsake",
+  "description": "We are Keepsake, a digital & branding agency specializing in web design, poster, motion video, based in London.",
+  "logoText": "Keepsake",
+  "logoMark": "K",
+  "navItems": [
+    {
+      "label": "Home",
+      "href": "#hero",
+      "active": true
+    },
+    {
+      "label": "About Us",
+      "href": "#about",
+      "active": false
+    },
+    {
+      "label": "Our Works",
+      "href": "#works",
+      "active": false
+    },
+    {
+      "label": "Journal",
+      "href": "#journal",
+      "active": false
+    },
+    {
+      "label": "Contact",
+      "href": "#contact",
+      "active": false
+    }
+  ],
+  "mobileContact": {
+    "hello": "Say Hello",
+    "email": "hello@keepsake.studio",
+    "phone": "+44 20 7946 0000"
+  },
+  "footerCols": [
+    {
+      "title": "Studio",
+      "links": [
+        {
+          "label": "About us",
+          "href": "#about"
+        },
+        {
+          "label": "Our works",
+          "href": "#works"
+        },
+        {
+          "label": "Journal",
+          "href": "#journal"
+        },
+        {
+          "label": "Careers",
+          "href": "#"
+        },
+        {
+          "label": "Contact",
+          "href": "#contact"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "links": [
+        {
+          "label": "Web design",
+          "href": "#works"
+        },
+        {
+          "label": "Motion video",
+          "href": "#works"
+        },
+        {
+          "label": "Print design",
+          "href": "#works"
+        },
+        {
+          "label": "Illustration",
+          "href": "#works"
+        },
+        {
+          "label": "Brand strategy",
+          "href": "#works"
+        }
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "name": "rss",
+      "label": "RSS",
+      "text": "rss",
+      "href": "#"
+    },
+    {
+      "name": "fb",
+      "label": "Facebook",
+      "text": "f",
+      "href": "#"
+    },
+    {
+      "name": "tw",
+      "label": "Twitter",
+      "text": "tw",
+      "href": "#"
+    },
+    {
+      "name": "dr",
+      "label": "Dribbble",
+      "text": "dr",
+      "href": "#"
+    },
+    {
+      "name": "pi",
+      "label": "Pinterest",
+      "text": "p",
+      "href": "#"
+    }
+  ],
+  "copyright": "© 2026 Keepsake. All rights reserved."
+}
