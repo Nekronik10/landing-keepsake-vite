@@ -1,0 +1,131 @@
+@use '../abstracts' as *;
+
+.nav {
+  display: none;
+
+  @include mq(md) {
+    display: block;
+  }
+
+  &__list {
+    @include flex-center(row, 40px);
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+  }
+
+  &__link {
+    font-size: rem(13);
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+
+    &:hover {
+      color: var(--color-accent-hover);
+    }
+
+    &--active {
+      color: var(--color-accent);
+    }
+  }
+
+  &__btn {
+    @include flex-center;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    i {
+      @include flex-center;
+      width: 16px;
+      height: 16px;
+      font-size: rem(16);
+    }
+  }
+}
+
+.mobile-btn {
+  display: block;
+
+  @include mq(md) {
+    display: none;
+  }
+}
+
+.burger-toggle {
+  display: none;
+}
+
+.burger-btn {
+  width: 22px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+
+  span {
+    width: 22px;
+    height: 2px;
+    background: var(--color-text-dark);
+    transition: 0.3s;
+  }
+}
+
+.burger-toggle:checked + .burger-btn {
+  span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  span:nth-child(2) {
+    opacity: 0;
+  }
+
+  span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+.mobile-extra {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0 52px;
+    gap: 12px;
+  }
+
+  &__contact-btn,
+  &__fav-btn {
+    @include flex-center(row, 8px);
+    width: 100%;
+    padding: 15px 1px;
+    transition: 0.3s;
+  }
+
+  &__fav-btn {
+    i {
+      color: var(--color-accent);
+      font-size: rem(12);
+      transition: color 0.3s;
+    }
+
+    &:active i {
+      color: var(--color-white);
+    }
+  }
+}
+
+.mobile-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  &__hello {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    color: var(--color-text-dark);
+  }
+}
