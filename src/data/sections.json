@@ -1,0 +1,126 @@
+{
+  "hero": {
+    "title": "We're Keepsake, a digital & branding agency",
+    "text": "Specializing in web design, poster, motion video, based in London. We love to turn ideas into beautiful things.",
+    "primaryCta": {
+      "label": "See our works",
+      "href": "#works"
+    },
+    "secondaryCta": {
+      "label": "Get in touch",
+      "href": "#contact"
+    }
+  },
+  "contact": {
+    "title": "Would you love to work with us?",
+    "btnLabel": "Contact us",
+    "icon": "mail"
+  },
+  "about": {
+    "title": "What do we do",
+    "text": "We are a small team of designers and makers who help brands look their best online and offline.",
+    "services": [
+      {
+        "iconName": "monitor",
+        "title": "Web design",
+        "text": "Responsive sites and product interfaces that look sharp on every screen."
+      },
+      {
+        "iconName": "tv",
+        "title": "Motion video",
+        "text": "Explainers, logo animations and social clips that bring brands to life."
+      },
+      {
+        "iconName": "printer",
+        "title": "Print design",
+        "text": "Posters, packaging and stationery prepared to be printed right."
+      },
+      {
+        "iconName": "heart",
+        "title": "Illustration",
+        "text": "Custom illustrations and icon sets in a style that is yours alone."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "number": "120+",
+      "label": "Projects done"
+    },
+    {
+      "number": "8",
+      "label": "Years in craft"
+    },
+    {
+      "number": "64",
+      "label": "Happy clients"
+    },
+    {
+      "number": "15",
+      "label": "Design awards"
+    }
+  ],
+  "client": {
+    "title": "Clients & kind words",
+    "text": "Some of the teams that trusted us with their brands.",
+    "logos": [
+      "NORDLY",
+      "Halcyon",
+      "ARCO",
+      "pinewood",
+      "VELA",
+      "ostra"
+    ],
+    "testimonial": {
+      "mark": "“",
+      "quote": "Keepsake turned a vague brief into a brand we are proud of. The team was fast, honest about trade-offs and obsessed with the details.",
+      "initials": "OM",
+      "author": "Olena Marchenko",
+      "role": "Marketing Lead, Nordly",
+      "slidesCount": 3,
+      "activeIndex": 0
+    }
+  },
+  "journal": {
+    "title": "From the journal",
+    "text": "Some of the teams that trusted us with their brands.",
+    "posts": [
+      {
+        "image": "thumb-01",
+        "date": "2026-10-13",
+        "dateLabel": "Oct 13, 2026",
+        "category": "Identity",
+        "title": "Sollicitudin tortor inceptos",
+        "text": "Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.",
+        "href": "#"
+      },
+      {
+        "image": "thumb-02",
+        "date": "2026-10-23",
+        "dateLabel": "Oct 23, 2026",
+        "category": "Branding",
+        "title": "Amet inceptos fringilla fusce",
+        "text": "Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.",
+        "href": "#"
+      },
+      {
+        "image": "thumb-03",
+        "date": "2026-09-19",
+        "dateLabel": "Sep 19, 2026",
+        "category": "Identity",
+        "title": "Cursus malesuada justo",
+        "text": "Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.",
+        "href": "#"
+      },
+      {
+        "image": "thumb-04",
+        "date": "2026-09-27",
+        "dateLabel": "Sep 27, 2026",
+        "category": "Branding",
+        "title": "Ornare cursus bibendum purus",
+        "text": "Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.",
+        "href": "#"
+      }
+    ]
+  }
+}
