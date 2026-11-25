@@ -1,0 +1,43 @@
+@use '../abstracts' as *;
+
+.works {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  &__filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &__radio {
+    @include visually-hidden;
+  }
+
+  &__more {
+    margin-top: 28px;
+    text-align: center;
+  }
+}
+
+.filter-btn {
+  letter-spacing: 1px;
+  font-size: rem(12);
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 14px;
+}
