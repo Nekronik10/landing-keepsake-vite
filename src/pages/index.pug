@@ -1,0 +1,16 @@
+extends ../layouts/main.pug
+
+append meta
+  meta(name="theme-color" content="#F95858")
+
+block content
+  include ../components/sections/hero.pug
+  include ../components/sections/works.pug
+  include ../components/sections/contact.pug
+  include ../components/sections/about.pug
+  include ../components/sections/stats.pug
+  include ../components/sections/client.pug
+  include ../components/sections/journal.pug
+
+prepend scripts
+  //- Pre-scripts hook
