@@ -1,0 +1,35 @@
+header.header
+  .container.header__inner
+    .header__logo
+      a.logo(href="#hero")
+        span.logo__mark #{site.logoMark}
+        span.logo__text #{site.logoText.slice(1)}
+      .mobile-btn
+        input#burger.burger-toggle(type="checkbox")
+        label.burger-btn(for="burger" aria-label="Toggle menu")
+          span
+          span
+          span
+
+    nav.nav(aria-label="Primary")
+      ul.nav__list
+        each item in site.navItems
+          li.nav__item
+            a.nav__link(href=item.href class={ 'nav__link--active': item.active }) #{item.label}
+        li.nav__item
+          +btn('', '#', 'primary', 'nav__btn')(aria-label="Favourites")
+            +icon('suit-heart-fill', 'bi')
+
+    .mobile-extra
+      .mobile-extra__actions
+        +btn('', null, 'primary', 'mobile-extra__contact-btn')
+          +icon('mail', 'material')
+          span.btn-contact-text Contact us
+        +btn('', null, 'secondary', 'mobile-extra__fav-btn')
+          +icon('suit-heart-fill', 'bi')
+          span.btn-contact-text Favourites
+
+      .mobile-contact
+        p.mobile-contact__hello #{site.mobileContact.hello}
+        p.mobile-contact__mail #{site.mobileContact.email}
+        p.mobile-contact__num #{site.mobileContact.phone}
