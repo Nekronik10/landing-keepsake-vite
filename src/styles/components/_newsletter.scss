@@ -1,0 +1,97 @@
+@use '../abstracts' as *;
+
+.newsletter {
+  max-width: 340px;
+  width: 100%;
+
+  &__text {
+    color: var(--color-text-footer);
+    margin-bottom: 12px;
+  }
+
+  &__success {
+    display: none;
+    margin-top: 12px;
+  }
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__input {
+    padding: 10px 12px;
+    background: var(--color-form-bg);
+    border: 1px solid var(--color-form-border);
+    color: var(--color-white);
+    font-size: rem(13);
+
+    &::placeholder {
+      color: var(--color-form-text);
+    }
+  }
+
+  &__btn {
+    padding: 10px 18px;
+    font-size: rem(13);
+    align-self: flex-start;
+  }
+
+  &__error {
+    display: none;
+    font-size: rem(12);
+    color: var(--color-accent);
+  }
+
+  &__agree {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: rem(12);
+    color: var(--color-checkbox-text);
+    cursor: pointer;
+  }
+
+  &__checkbox {
+    accent-color: var(--color-accent);
+  }
+}
+
+.success {
+  &__box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-teal);
+  }
+
+  &__note {
+    font-size: rem(12);
+    color: var(--color-muted);
+    margin-top: 4px;
+  }
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+
+  &__link {
+    @include flex-center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--color-form-bg);
+    color: var(--color-text-footer);
+    font-family: var(--font-heading);
+    font-size: rem(12);
+    text-transform: uppercase;
+    transition: 0.3s;
+
+    &:hover {
+      background: var(--color-accent);
+      color: var(--color-white);
+    }
+  }
+}

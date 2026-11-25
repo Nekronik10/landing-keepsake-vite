@@ -1,0 +1,23 @@
+@use '../abstracts' as *;
+
+.contact {
+  &__content {
+    @include flex-center(column, 20px);
+    text-align: center;
+  }
+
+  &__title {
+    color: var(--color-text-dark);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: rem(36);
+    font-size: rem(28);
+    font-weight: 300;
+    font-family: var(--font-heading);
+  }
+
+  &__btn {
+    @include flex-center(row, 8px);
+    padding: 11px 26px;
+  }
+}
