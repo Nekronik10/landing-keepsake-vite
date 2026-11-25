@@ -16,3 +16,5 @@ npm run format       # форматування коду через Prettier
 npm run lint         # перевірка стилів (Stylelint) та форматування (Prettier)
 ```
 # landing-keepsake-vite
+
+Ссилка на сайт: https://nekronik10.github.io/landing-keepsake-vite/
