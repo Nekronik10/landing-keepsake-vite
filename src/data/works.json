@@ -1,0 +1,110 @@
+{
+  "title": "Our awesome works",
+  "categories": [
+    {
+      "id": "all",
+      "label": "All",
+      "checked": true
+    },
+    {
+      "id": "branding",
+      "label": "Branding",
+      "checked": false
+    },
+    {
+      "id": "identity",
+      "label": "Identity",
+      "checked": false
+    },
+    {
+      "id": "print",
+      "label": "Print",
+      "checked": false
+    },
+    {
+      "id": "web",
+      "label": "Web",
+      "checked": false
+    },
+    {
+      "id": "motion",
+      "label": "Motion",
+      "checked": false
+    }
+  ],
+  "projects": [
+    {
+      "image": "work-01",
+      "alt": "Mock-up tag",
+      "title": "Clothes Tag",
+      "category": "Branding",
+      "categorySlug": "branding",
+      "href": "#"
+    },
+    {
+      "image": "work-02",
+      "alt": "Piecepaper",
+      "title": "Piecepaper",
+      "category": "Identity",
+      "categorySlug": "identity",
+      "href": "#"
+    },
+    {
+      "image": "work-03",
+      "alt": "Vinyl cover",
+      "title": "Vinyl Cover",
+      "category": "Print",
+      "categorySlug": "print",
+      "href": "#"
+    },
+    {
+      "image": "work-04",
+      "alt": "Vol. 16",
+      "title": "Vol. 16",
+      "category": "Print",
+      "categorySlug": "print",
+      "href": "#"
+    },
+    {
+      "image": "work-05",
+      "alt": "Profile UI",
+      "title": "Profile UI",
+      "category": "Web",
+      "categorySlug": "web",
+      "href": "#"
+    },
+    {
+      "image": "work-06",
+      "alt": "Stationery set",
+      "title": "Stationery Set",
+      "category": "Branding",
+      "categorySlug": "branding",
+      "href": "#"
+    },
+    {
+      "image": "work-07",
+      "alt": "WallSt.",
+      "title": "WallSt.",
+      "category": "Identity",
+      "categorySlug": "identity",
+      "href": "#"
+    },
+    {
+      "image": "work-08",
+      "alt": "John Doe Design Studio",
+      "title": "John Doe",
+      "category": "Branding",
+      "categorySlug": "branding",
+      "href": "#"
+    },
+    {
+      "image": "work-09",
+      "alt": "Seal Fabric",
+      "title": "Seal Fabric",
+      "category": "Branding",
+      "categorySlug": "branding",
+      "href": "#"
+    }
+  ],
+  "loadMoreLabel": "Load more works"
+}
