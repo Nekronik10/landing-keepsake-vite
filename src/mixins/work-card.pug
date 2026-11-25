@@ -1,0 +1,9 @@
+mixin work-card(work)
+  article.project
+    +picture(work.image, work.alt, 800, 632, '(min-width: 1280px) 357px, (min-width: 768px) 50vw, 100vw', true)(class="project__img")
+    .project__overlay
+      a.project__link(href=work.href aria-label=`Open ${work.title}`)
+        +icon('add', 'symbol')
+      h3.project__title #{work.title}
+      span.project-line
+      span.project__category #{work.category}

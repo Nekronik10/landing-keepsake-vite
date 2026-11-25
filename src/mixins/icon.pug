@@ -1,0 +1,9 @@
+mixin icon(name, variant = 'symbol')
+  case variant
+    when 'material'
+      span.material-symbols-outlined(aria-hidden="true")&attributes(attributes) #{name}
+    when 'bi'
+      i(class=`bi bi-${name}` aria-hidden="true")&attributes(attributes)
+    default
+      svg.icon(aria-hidden="true")&attributes(attributes)
+        use(href=`#icon-${name}`)

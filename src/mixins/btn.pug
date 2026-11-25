@@ -1,0 +1,19 @@
+mixin btn(label, href = null, modifier = 'primary', extraClass = '')
+  -
+    const btnClasses = {
+      btn: true,
+      [`btn--${modifier}`]: Boolean(modifier),
+      [extraClass]: Boolean(extraClass)
+    };
+  if href
+    a(href=href class=btnClasses)&attributes(attributes)
+      if block
+        block
+      else
+        | #{label}
+  else
+    button(type="button" class=btnClasses)&attributes(attributes)
+      if block
+        block
+      else
+        | #{label}
