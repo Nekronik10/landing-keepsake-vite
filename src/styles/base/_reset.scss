@@ -1,0 +1,29 @@
+@use '../abstracts' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-dark);
+}
+
+button {
+  @include button-reset;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
